@@ -1,0 +1,13 @@
+{
+    "_source": [ "PMID", "Title", "Uploader", "_score" ],
+    "size": 3,
+    "query": {
+        "bool": {
+            "must": [
+                {"match_phrase": { "Abstract": "patients" }},
+                {"match": { "Uploader": "Issouf Kindo" }}
+            ]
+        }
+    }
+}
+

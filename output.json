@@ -1,0 +1,61 @@
+{
+  "took": 13,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 2601,
+      "relation": "eq"
+    },
+    "max_score": 6.0052414,
+    "hits": [
+      {
+        "_index": "pubmed2021",
+        "_type": "_doc",
+        "_id": "3edFEHwB48v3Q1dJR5V-",
+        "_score": 6.0052414,
+        "_ignored": [
+          "Abstract.keyword"
+        ],
+        "_source": {
+          "Title": "[H.L.A. tissue groups and chronic open-angle glaucoma].",
+          "Uploader": "Issouf Kindo",
+          "PMID": "527169"
+        }
+      },
+      {
+        "_index": "pubmed2021",
+        "_type": "_doc",
+        "_id": "SudFEHwB48v3Q1dJRIHK",
+        "_score": 5.970337,
+        "_ignored": [
+          "Abstract.keyword"
+        ],
+        "_source": {
+          "Title": "Allocation of attention and the Type A coronary-prone behavior pattern.",
+          "Uploader": "Issouf Kindo",
+          "PMID": "521903"
+        }
+      },
+      {
+        "_index": "pubmed2021",
+        "_type": "_doc",
+        "_id": "cOdFEHwB48v3Q1dJR5RJ",
+        "_score": 5.965725,
+        "_ignored": [
+          "Abstract.keyword"
+        ],
+        "_source": {
+          "Title": "The features of the Mirizzi syndrome on ultrasound examination.",
+          "Uploader": "Issouf Kindo",
+          "PMID": "526803"
+        }
+      }
+    ]
+  }
+}
